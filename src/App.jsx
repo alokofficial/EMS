@@ -36,8 +36,10 @@ const App = () => {
   
   return (
     <>
-      {!user ? <Login handleLogin = {handleLogin} /> : ''}
-      {user === 'admin' ? <AdminDashboard /> : <EmployeeDashboard />}
+
+      
+      {/* {!user ? <Login handleLogin = {handleLogin} /> : ''} */}
+      {/* {user === 'admin' ? <AdminDashboard /> : <EmployeeDashboard />} */}
 
     </>
   )
